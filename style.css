@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* nav start */
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1% 1%;
+}
+nav h1{
+    color: rgb(33, 138, 33);
+    font-size: 26px;
+    padding-left: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+li
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* main page 1 start */
+
+#imgbg{
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)), url(https://i.ytimg.com/vi/HfXxzOwcswE/maxresdefault.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+
+}
+#imgbg>button{
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 13px;
+    width: 10%;
+    color: white;
+    font-size: 17px;
+}
+.textwhite{
+    color: white;
+}
+#imgbg h4{
+    padding: 25px 0;
+}
+
+/* page 2 start esseintial */
+
+#text{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items:start;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    flex-direction: column;
+
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    /* background: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    /* background: yellowgreen; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#left{
+    width: 60%;
+    height: 100%;
+    background-image: url(https://hindi-blog.s3.amazonaws.com/uploads/2018/11/chehre-ke-churiya-hatane-ke-upay-in-hindi.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  
+}
+#left h1{
+    margin-top: 20px;
+}
+#left  button{
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 13px;
+    width: 20%;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+#left2{
+    width: 60%;
+    height: 100%;
+    background-image: url(https://images1.livehindustan.com/uploadimage/library/2019/07/19/16_9/16_9_1/shoulder_pain_1563515250.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+
+}
+#left2>h1
+{
+    padding-left:40px ;
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+
+}
+#left2>button{
+   margin-left:50px ;
+   padding: 10px 25px;
+   border-radius: 15px;
+
+}
+    /* #right{
+    
+    } */
+#right2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* background: cadetblue; */
+    align-items: start;
+}
+
+#page2_right_text{
+    width: 70% !important;
+    margin-top: 30px !important;
+}
+
+.page2_right_button{
+    border-radius: 30px;
+    background: transparent;
+    padding: 10px 30px;
+}
+#right button{
+    margin-right: 300px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+#right h3{
+    width: 80%;
+    margin-top: 10px;
+
+}
+#imgright{
+    width: 80%;
+    height: 60%;
+    background-image: url(https://static.toiimg.com/thumb/msid-66272826,width-400,resizemode-4/66272826.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+#page3{
+    width: 100%;
+    height: 70%;
+    /* background: peru; */
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 60%;
+    background: rgb(68, 32, 87);
+    display: flex;
+}
+.top .page3_text{
+    padding: 10px;
+}
+.top .top_left{
+    width: 50%;
+    height: 100%;
+    /* background: yellow; */
+    background-image: url(https://www.humanrace.com/static/b8d5093c65d94cc5e7d22c6c0892eba3/6322f/home_redesign_footer_tile_1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.top .top_right{
+    width: 50%;
+    height: 100%;
+    /* background: yellow; */
+    background-image: url(https://www.humanrace.com/static/ae6aed0958252ecb97a27c387f886eb8/a73bd/dnSnGpNA.webp);
+    background-position: center;
+    background-size: cover;
+}
+.bottom{
+    width:100%;
+    height: 50%;
+    /* background: dodgerblue; */
+    display: flex;
+    align-items: center;
+
+}
+.bottom_left {
+    /* background: red !important; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom_left h2{
+    width: 70%;
+    font-size: 18px;
+}
+
+.bottom_left h2:nth-child(1){
+    margin-bottom: 10px !important;
+}
+.bottom_right{
+    /* background: rgb(25, 131, 126); */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom_right button{
+    width: 25%;
+    height: 30%;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(189, 188, 188);
+    color: rgb(184, 181, 181);
+}
+#leftinput input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+#leftinput h4{
+    color: rgb(7, 7, 7);
+    margin-top: 10px;
+}
+#leftinput input::placeholder{
+    color: rgb(65, 65, 65);
+    margin-bottom: 10px;
+}
+
+.bottom >left{
+background-image: url(https://feeds.abplive.com/onecms/images/uploaded-images/2023/03/13/759bee176847408aa48e3201b11fb48a1678693880532579_original.jpg?impolicy=abp_cdn&imwidth=640);
+}
+#page1>left>button{
+    border-radius: 60px;
+    padding:50Px;
+    line-height: 5%;
+}
+.bottom-left{
+    background-image: url(https://img3.exportersindia.com/product_images/bc-full/2020/2/1477249/women-plastic-footwear-1582262842-5308719.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#footer{
+    width: 100%;
+    height: 55%;
+    background: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#footer .footer_div{
+    width: 25%;
+    height: 70%;
+    /* background: firebrick; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#footer li{
+    list-style: none;
+    padding: 5px 0;
+}
+span{
+    color: green;
+    size: 900;
+
+}
